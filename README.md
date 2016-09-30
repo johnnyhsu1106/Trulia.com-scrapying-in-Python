@@ -19,9 +19,13 @@ c. output photo only (format jpg)
 
 Annotation: 
 (1) <properties.txt> is a txt file containing links from Trulia and each link is separated by newline character as attached file "properties.txt"
+
 (2) The filename of photo is the address of each property, each word separated by "-"
+
 (3) The filename of json is the same as the filename of properties.txt
+
 (4) json format
+
 {  link A:
    {"Features": [  ] ,
     "Public Records" : [  ] , 
