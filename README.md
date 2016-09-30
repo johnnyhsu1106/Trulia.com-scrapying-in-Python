@@ -8,6 +8,7 @@ This infomation will be stored as json. The code will use the Beautifulsoup Clas
 > python setup.py install
 
 In command prompt, run the following command propmt
+
 a. output json file and photo 
 > python webscrap_trulia.py <properties.txt> -a
 
@@ -17,12 +18,13 @@ b. output json file only
 c. output photo only (format jpg)
 > python webscrap_trulia.py <properties.txt> -p
 
-Annotation: 
+Annotation:
+
 (1) <properties.txt> is a txt file containing links from Trulia and each link is separated by newline character as attached file "properties.txt"
 
-(2) The filename of photo is the address of each property, each word separated by "-"
+(2) The filename of photo is the address of each property, each word separated by "-", like 830-E-Copper-St-Tucson-AZ-85719
 
-(3) The filename of json is the same as the filename of properties.txt
+(3) The filename of json is the same as the filename of properties.txt, like properties.json
 
 (4) json format
 
