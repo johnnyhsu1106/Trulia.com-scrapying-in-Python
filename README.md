@@ -10,13 +10,13 @@ This infomation will be stored as json. The code will use the Beautifulsoup Clas
 In command prompt, run the following command propmt
 
 a. output json file and photo 
-> python webscrap_trulia.py <properties.txt> -a
+> python webscrap_trulia.py properties.txt -a
 
 b. output json file only
-> python webscrap_trulia.py <properties.txt> -j
+> python webscrap_trulia.py properties.txt -j
 
 c. output photo only (format jpg)
-> python webscrap_trulia.py <properties.txt> -p
+> python webscrap_trulia.py properties.txt -p
 
 Annotation:
 
