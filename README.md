@@ -1,32 +1,30 @@
-# WebScarp_Trulia_property
-This code is to use Python 3.5 to parse the content of property from Trulia.com as the follows and photo of property.
-1. Features
-2. Public Record
-3. Price History
-4. Real Estate Trend
-This infomation will be stored as json. The code will use the Beautifulsoup Class mainly so before you run the code, you have to install the bs4 library first. Please unzip the beautifulsoup4-4.1.0.tar and run the follown command propmt
-> python setup.py install
+# Web Scarping in Python from www.Trulia.com/property/<br>
+This code is to use Python 3.5 to parse the content of property from Trulia.com as the follows and photo of property.<br>
+1. Features <br>
+2. Public Record <br>
+3. Price History <br>
+4. Real Estate Trend <br>
+This infomation will be stored as json. The code will use the Beautifulsoup Class mainly so before you run the code, you have to install the bs4 library first. Please unzip the beautifulsoup4-4.1.0.tar and run the follown command propmt in Windows or terminal in Mac<br>
+&nbsp; &gt; python setup.py install <br>
+&nbsp; $ python setup.py install <br>
 
-In command prompt, run the following command propmt
+In command prompt, run the following in command propmt as example <br>
 
-a. output json file and photo 
-> python webscrap_trulia.py properties.txt -a
+a. output json file and photo <br>
+&nbsp; &gt; python webscrap_trulia.py properties.txt -a <br>
 
-b. output json file only
-> python webscrap_trulia.py properties.txt -j
+b. output json file only <br>
+&nbsp; &gt; python webscrap_trulia.py properties.txt -j <br>
 
-c. output photo only (format jpg)
-> python webscrap_trulia.py properties.txt -p
+c. output photo only (format jpg) <br>
+&nbsp; &gt; python webscrap_trulia.py properties.txt -p <br>
 
-Annotation:
+Annotation:<br>
 
-(1) properties.txt  is a txt file containing links from Trulia and each link is separated by newline character as attached file "properties.txt"
-
-(2) The filename of photo is the address of each property, each word separated by "-", like 830-E-Copper-St-Tucson-AZ-85719
-
-(3) The filename of json is the same as the filename of properties.txt, like properties.json
-
-(4) json format
+(1) properties.txt  is a txt file containing links from Trulia and each link is separated by newline character as attached file "properties.txt"<br>
+(2) The filename of photo is the address of each property, each word separated by "-", like 830-E-Copper-St-Tucson-AZ-85719<br>
+(3) The filename of json is the same as the filename of properties.txt, like properties.json <br>
+(4) json format<br>
 
 {  link A:
    
