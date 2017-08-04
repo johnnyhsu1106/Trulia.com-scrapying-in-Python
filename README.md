@@ -30,25 +30,15 @@ Annotation:<br>
 (4) json format<br>
 
 {  link A:
-   
    { "Features": [  ] ,
-   
      "Public Records" : [  ] , 
-    
      "Price History": [ ],
-     
      "Real Estate Trends": [ ] }, 
      
    link B:
-   
-   { "Features": [  ] ,
-    
-     "Public Records" : [  ] , 
-     
-     "Price History": [ ],
-     
-     "Real Estate Trends": [ ] },
-      
-      ..........
-      
-      .......... }    
+     { "Features": [  ] ,
+        "Public Records" : [  ] , 
+         "Price History": [ ],
+         "Real Estate Trends": [ ] },
+         ..........
+         .......... }    
